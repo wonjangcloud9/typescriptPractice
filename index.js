@@ -26,3 +26,6 @@ var school = {
 };
 school.score[4] = false;
 school.friend = ["Lee", school.teacher];
+function add(a, b) {
+    a + b;
+}
