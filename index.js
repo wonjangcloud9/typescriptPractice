@@ -30,3 +30,11 @@ function add(a, b) {
     a + b;
 }
 // tsc -w
+function test18(x) {
+    var array = [];
+    var y;
+    if (typeof x === "number") {
+        array[0] = x;
+    }
+    array[0] = y;
+}

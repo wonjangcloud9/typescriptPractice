@@ -54,3 +54,12 @@ function add(a?: number, b?: number): void {
 }
 
 // tsc -w
+
+function test18(x: number | string) {
+  let array: number[] = [];
+  let y;
+  if (typeof x === "number") {
+    array[0] = x;
+  }
+  array[0] = y as number;
+}
