@@ -63,3 +63,13 @@ function test18(x: number | string) {
   }
   array[0] = y as number;
 }
+
+type GirlFriend = {
+  readonly name: string;
+};
+
+const 여친: GirlFriend = {
+  name: "냥뇽녕냥",
+};
+
+여친.name = "카리나";

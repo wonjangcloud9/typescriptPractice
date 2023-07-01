@@ -38,3 +38,7 @@ function test18(x) {
     }
     array[0] = y;
 }
+var 여친 = {
+    name: "냥뇽녕냥",
+};
+여친.name = "카리나";
