@@ -52,3 +52,5 @@ school.friend = ["Lee", school.teacher];
 function add(a?: number, b?: number): void {
   a + b;
 }
+
+// tsc -w
