@@ -42,3 +42,7 @@ var 여친 = {
     name: "냥뇽녕냥",
 };
 여친.name = "카리나";
+var 도시;
+function 가위바위보여(a) {
+    return [a];
+}
