@@ -72,10 +72,16 @@ const 여친: GirlFriend = {
   name: "냥뇽녕냥",
 };
 
-여친.name = "카리나";
-
 let 도시: "오사카" | "나고야" | "도쿄";
 
 function 가위바위보여(a: "가위" | "바위" | "보"): ("가위" | "바위" | "보")[] {
   return [a];
 }
+
+const test20 = (...a: number[]) => {
+  console.log(a);
+};
+
+let arr = [1, 2, 3];
+let arr2 = [4, 5];
+let arr3 = [...arr, ...arr2];

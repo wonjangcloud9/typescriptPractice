@@ -1,3 +1,12 @@
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 var testName = ["kim", "park"];
 var testAge = [20, 30];
 var testBool = [true, false];
@@ -41,8 +50,17 @@ function test18(x) {
 var 여친 = {
     name: "냥뇽녕냥",
 };
-여친.name = "카리나";
 var 도시;
 function 가위바위보여(a) {
     return [a];
 }
+var test20 = function () {
+    var a = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        a[_i] = arguments[_i];
+    }
+    console.log(a);
+};
+var arr = [1, 2, 3];
+var arr2 = [4, 5];
+var arr3 = __spreadArray(__spreadArray([], arr, true), arr2, true);
